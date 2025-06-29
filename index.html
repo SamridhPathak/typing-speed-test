@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Speed & Accuracy Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⌨️ Typing Speed & Accuracy Test</h1>
+    <div class="level-select">
+      <label for="level">Select Difficulty: </label>
+      <select id="level" onchange="resetTest()">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+    <div class="quote" id="quote"></div>
+    <textarea class="input-area" id="input" placeholder="Start typing here..."></textarea>
+    <div class="stats">
+      <div>⏱ Time: <span id="timer">0</span>s</div>
+      <div>💬 WPM: <span id="wpm">0</span></div>
+      <div>🎯 Accuracy: <span id="accuracy">100</span>%</div>
+    </div>
+    <button class="btn" onclick="resetTest()">🔁 Restart</button>
+    <div class="leaderboard">
+      <h3>🏆 Top 5 Scores</h3>
+      <ol id="leaderboard-list"></ol>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

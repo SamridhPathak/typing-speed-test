@@ -1,6 +1,6 @@
 # ⌨️ Typing Speed & Accuracy Test
 
-A sleek, responsive, and interactive typing speed test built using pure HTML, CSS, and JavaScript. This application helps users improve their typing speed, accuracy, and consistency — all within the browser, with no backend required.
+A sleek, responsive, and interactive typing speed test built using pure **HTML**, **CSS**, and **JavaScript**. This application helps users improve their typing speed, accuracy, and consistency — all within the browser, with no backend required.
 
 ---
 
@@ -21,7 +21,7 @@ A sleek, responsive, and interactive typing speed test built using pure HTML, CS
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Google Fonts (Fira Code)
+- Google Fonts
 - Browser LocalStorage
 
 ---
